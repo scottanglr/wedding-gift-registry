@@ -1,0 +1,12 @@
+.cute-separator-container{
+    color: #880039;
+    text-align: center;
+    margin: 5rem 0;
+}
+
+.cute-separator-svg {
+    height: 2rem;
+    /*filter: drop-shadow(0px 0px 1px black);*/
+    stroke: white;
+    stroke-width: 4px;
+}

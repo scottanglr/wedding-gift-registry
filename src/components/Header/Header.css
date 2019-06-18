@@ -1,0 +1,41 @@
+.header{
+}
+
+.header-heading{
+    color: white;
+    font-family: 'Tangerine', serif;
+    text-shadow: #000000a6 -2px 2px 5px;
+    font-size: 8rem;
+    text-align: center;
+    min-height: 66vh;
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+    justify-content: center;
+}
+
+@media (max-width: 991px){
+    .header-heading{
+        font-size: 6rem;
+    }
+}
+
+.header-remind-me-spacer{
+    height: 4rem;
+}
+
+.header-remind-me-wrapper{
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+.header-remind-me-button{
+    width: 100%;
+    height: 2rem;
+}
+

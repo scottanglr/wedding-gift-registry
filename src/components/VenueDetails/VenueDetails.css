@@ -1,0 +1,35 @@
+.venue-details-container-outer{
+}
+
+.venue-details-container{
+    border: 2rem solid;
+    border-left: 0;
+    border-right: 0;
+    font-family: serif;
+    min-height: 50vh;
+    background-color: white;
+}
+
+.venue-details-container-outer{
+    box-shadow: 0 0 4px 0 #000000a6;
+}
+
+.venue-details-container-header{
+    font-size: 2.5rem;
+}
+
+.venue-details-image-wrapper{
+    padding-left: 3rem;
+    padding-right: 3rem;
+    margin: auto 0;
+}
+
+.venue-details-body-text{
+    font-size: 1.5rem;
+}
+
+@media (max-width: 991px){
+    .venue-details-body-text{
+        font-size: 1.25rem;
+    }
+}

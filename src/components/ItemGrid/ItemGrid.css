@@ -1,0 +1,46 @@
+
+/*Chrome for mobile will not allow touch input for the bottom of the list*/
+/*This is an attempt to fix it*/
+.item-grid-container{
+    padding-bottom: 6rem;
+}
+
+.item-grid-load-error-message{
+    background: #790d39;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+    padding: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.25rem;
+    box-shadow: 0 0 4px 0 #000000a6;
+}
+
+.item-grid-loader-wrapper{
+    position: relative;
+    width: 100%;
+    padding: 6rem;
+    margin-top: 2rem;
+}
+
+.item-grid-loader {
+    opacity: 0.5;
+    position: absolute;
+    animation: spin 1s linear infinite;
+    border: 5px solid #790d39;
+    border-top: 5px solid #d8ad2f;
+    border-radius: 50%;
+    height: 7rem;
+    width: 7rem;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%) rotate(0deg);
+}
+
+@keyframes spin {
+    to {
+        border-top-color: #d8ad2f;
+        transform: translateX(-50%) rotate(360deg);
+    }
+}

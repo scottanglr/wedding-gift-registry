@@ -1,0 +1,40 @@
+.description-container{
+    min-height: 50vh;
+    background: white;
+    border: 2rem solid;
+    border-left: 0;
+    border-right: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 1.5rem;
+    font-family: serif;
+}
+
+.description-container-outer{
+    box-shadow: 0 0 4px 0 #000000a6;
+    margin-bottom: 5rem;
+}
+
+.description-container-header{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.description-container-body-text{
+    font-size: 1.5rem;
+    margin: auto;
+    text-align: center;
+    max-width: 50rem;
+}
+
+.description-container-body-text-wrapper{
+    flex: 1;
+    display: flex;
+}
+
+@media (max-width: 991px){
+    .description-container-body-text{
+        font-size: 1.25rem;
+    }
+}

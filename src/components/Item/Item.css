@@ -1,0 +1,49 @@
+.item-card-container{
+    padding: 0.5rem 1.875rem;
+}
+
+.item-image{
+    width: 12rem;
+    margin: auto;
+    padding-top: 1rem;
+}
+
+.item-button{
+    width: 75%;
+    transition: opacity 0.5s ease;
+}
+
+.item-card{
+    height: 100%;
+    transition: background-color 0.5s ease;
+}
+
+.item-card .card-body{
+    flex: 0;
+}
+
+/*UNAVAILABLE AND NO HOVER*/
+.item-unavailable .item-card{
+    background: rgba(255,255,255,0.6);
+}
+
+.item-unavailable .item-image{
+    opacity: 0.3;
+}
+
+.item-unavailable .item-title{
+    opacity: 0.8;
+}
+.item-unavailable .item-button{
+    opacity: 0.8;
+}
+
+/*UNAVAILABLE AND HOVER*/
+.item-unavailable .item-card:hover{
+    background: rgba(255,255,255,0.9);
+}
+
+/*HOVER, FOCUS, ACTIVE BUTTON*/
+.item-button:focus, .item-button:active, .item-card:hover .item-button{
+    opacity: 1;
+}
